@@ -27,7 +27,7 @@ function getVersion () {
 }
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'deploy' ? 'drag-create-h5' :'/', // 相对路径
+  publicPath: process.env.NODE_ENV === 'deploy' ? '/drag-create-h5/' :'/', // 相对路径
   outputDir: 'dist',
   lintOnSave: false,
   productionSourceMap: false,
