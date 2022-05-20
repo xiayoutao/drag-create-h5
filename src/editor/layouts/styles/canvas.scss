@@ -1,0 +1,23 @@
+.xia-editor-canvas {
+	flex: 1;
+	min-width: 400px;
+	height: 100%;
+	overflow: hidden;
+
+	.canvas-wrapper {
+	}
+
+	.cps-wrapper {
+		&:after {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: 2;
+			background-color: rgba(0, 0, 0, 0);
+			cursor: move;
+			content: '';
+		}
+	}
+}

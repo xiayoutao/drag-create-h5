@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Helvetica Neue, Helvetica, PingFang SC, Noto Sans CJK SC,
+		Source Han Sans CN, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+	color: #111;
+	font-weight: normal;
+	font-size: 1.68rem;
+}
+
+ul,
+li,
+a,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*滚动条*/
+::-webkit-scrollbar {
+	$w: 6px;
+	width: $w;
+	height: $w;
+
+	&-thumb {
+		border-radius: 20px;
+		background: rgba(0, 0, 0, 0.1);
+
+		&:hover {
+			background: rgba($primary, 0.5);
+		}
+
+		&:active {
+			background: rgba($primary, 0.8);
+		}
+	}
+
+	&-corner {
+		display: none;
+	}
+}
+
+[class^='edui-'] {
+	box-sizing: content-box !important;
+	line-height: 1;
+}
+
+.tox-tinymce-aux {
+	z-index: 5000 !important;
+}
+
+#edui_fixedlayer {
+	z-index: 5000 !important;
+}
