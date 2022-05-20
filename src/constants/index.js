@@ -1,1 +1,0 @@
-export const siteName = '拖拽生成页面';
