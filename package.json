@@ -6,6 +6,7 @@
     "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:gh": "vue-cli-service build --mode deploy --report",
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -b dist"
   },

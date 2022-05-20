@@ -3,10 +3,6 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin'); // css压缩
 const TerserPlugin = require('terser-webpack-plugin'); // js压缩
 const CompressionWebpackPlugin = require('compression-webpack-plugin'); // gzip压缩
-// const ElementPlus = require('unplugin-element-plus/webpack');
-// const AutoImport = require('unplugin-auto-import/webpack');
-// const Components = require('unplugin-vue-components/webpack');
-// const { ElementPlusResolver } = require('unplugin-vue-components/resolvers');
 const path = require('path');
 
 const resolve = dir => path.join(__dirname, dir);
