@@ -8,7 +8,7 @@
     "build": "vue-cli-service build",
     "build:gh": "vue-cli-service build --mode deploy --report",
     "lint": "vue-cli-service lint",
-    "deploy": "gh-pages -b dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",
